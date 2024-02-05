@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import sklearn
+import joblib
+from joblib import load
 from sklearn.preprocessing.label import LabelEncoder
 from sklearn.ensemble import RandomForestClassifier
 
@@ -54,10 +57,6 @@ st.markdown(sub_title,
             unsafe_allow_html=True)
 
 screen = st.empty()
-
-# Load the trained model
-import joblib
-from joblib import load
 
 # Load the trained model
 model = load("trained_model.joblib")
