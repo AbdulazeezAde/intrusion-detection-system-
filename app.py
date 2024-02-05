@@ -1,4 +1,4 @@
-import streamlit as st
+stimport streamlit as st
 import pandas as pd
 import numpy as np
 import sklearn
@@ -13,8 +13,6 @@ st.set_page_config(page_title='Intrusion Detection Dashboard',
                        layout = 'wide', 
                        initial_sidebar_state = 'auto')
 
-
-st.title("Network Intrusion Detection System")
 
 hide_menu_style = """
     <style>
@@ -63,7 +61,8 @@ label_encoder = LabelEncoder()
 
 
 # Add a sidebar to the app
-st.sidebar.header("User Input Features")
+st.sidebar.header("Network Intrusion Detection System")
+st.sidebar.write("User Input Features")
 
 # Add input fields to the sidebar
 protocol_type = st.sidebar.selectbox("Protocol Type", ["TCP", "UDP", "ICMP"])
