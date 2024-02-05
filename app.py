@@ -44,19 +44,10 @@ hide_menu_style = """
     </style>
     """
     
-sub_title = """
-            <div>
-                <h6 style="color:dodgerblue;
-                text-align:right;
-                margin-top:-40px;">
-                Intrusion Detection Dashboard </h6>
-            </div>
-            """
 
 st.markdown(sub_title,
             unsafe_allow_html=True)
 
-screen = st.empty()
 
 # Load the trained model
 model = load("trained_model.joblib")
