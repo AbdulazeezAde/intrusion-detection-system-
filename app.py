@@ -13,6 +13,9 @@ st.set_page_config(page_title='Intrusion Detection Dashboard',
                        layout = 'wide', 
                        initial_sidebar_state = 'auto')
 
+
+st.title("Network Intrusion Detection System")
+
 hide_menu_style = """
     <style>
         MainMenu {visibility: hidden;}
