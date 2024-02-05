@@ -45,9 +45,6 @@ hide_menu_style = """
     """
     
 
-st.markdown(sub_title,
-            unsafe_allow_html=True)
-
 
 # Load the trained model
 model = load("trained_model.joblib")
