@@ -47,7 +47,7 @@ hide_menu_style = """
 sub_title = """
             <div>
                 <h6 style="color:dodgerblue;
-                text-align:center;
+                text-align:right;
                 margin-top:-40px;">
                 Intrusion Detection Dashboard </h6>
             </div>
