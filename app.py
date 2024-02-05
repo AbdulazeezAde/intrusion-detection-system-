@@ -4,7 +4,7 @@ import numpy as np
 import sklearn
 import joblib
 from joblib import load
-from sklearn.preprocessing.label import LabelEncoder
+from sklearn.preprocessing import LabelEncoder
 from sklearn.ensemble import RandomForestClassifier
 
 
